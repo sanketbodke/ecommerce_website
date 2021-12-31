@@ -47,13 +47,13 @@ body {
 }
 .logo {
   order: 1;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .menu-items li {
   list-style: none;
   margin-left: 1.5rem;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .navbar a {
@@ -211,20 +211,24 @@ body {
 
 .home-text button {
   padding: 0.8rem;
-  font-size: 0.9rem;
+  font-size: 1rem;
   border-radius: 20px;
   outline: none;
   border: none;
   background: rgb(161, 34, 55);
-  color: #fff;
   margin-top: 1.5rem;
   cursor: pointer;
   font-weight: bold;
+  transition: 0.4s;
+}
+
+.home-text a{
+  text-decoration: none;
+  color: #fff;
 }
 
 .home-text button:hover {
-  background:#f3ead8;
-  color: rgb(161, 34, 55);
+  background: rgb(151, 12, 35, 1);
   font-weight: bold;
   transition: 0.3s;
 }
@@ -259,16 +263,18 @@ body {
   border-radius: 20px;
   border: none;
   background: rgb(161, 34, 55);
-  color: #fff;
   font-weight: bold;
   cursor: pointer;
+  transition: 0.4s;
+}
+
+.products a{
+  text-decoration: none;
+  color: #fff;
 }
 
 .products button:hover {
-  background: #fff;
-  border: 1.5px solid rgb(161, 34, 55);
-  color: rgb(161, 34, 55);
-  font-weight: bold;
+  background: rgb(151, 12, 35, 1);
 }
 
 .products p {
@@ -285,12 +291,10 @@ body {
   padding-bottom: 1rem;
 }
 
-/* ///.......trending men ........//// */
-
 .mens-trending {
   display: flex;
   justify-content: space-between;
-  margin: 2rem;
+  margin: 3rem;
 }
 
 .trending img {
@@ -306,11 +310,11 @@ body {
   margin: 0.5rem;
 }
 
-/* ///.........Testimonial......../// */
-
 .testimonial {
-  margin: 3rem 0;
+  margin: 6rem 0;
+  padding: 4rem;
   background: #f3ead8;
+  box-shadow: 0 10px 20px #aaa, 0 6px 6px #aaa;
 }
 
 .testimonial-content {
@@ -323,4 +327,89 @@ body {
   font-size: 1.2rem;
 }
 
-/* ///.........Contact......../// */
+.testimonial-content h4 {
+  color: rgb(161, 34, 55);
+  margin: 0.7rem;
+}
+
+.footer-content {
+  margin: 6rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content a {
+  display: block;
+  text-decoration: none;
+  color: rgb(92, 86, 86);
+  padding: 0.4rem;
+  font-size: 1.1rem;
+}
+
+.footer-content a:hover {
+  color: rgb(161, 34, 55);
+}
+
+.footer-content p {
+  color: rgb(92, 86, 86);
+  font-size: 1.1rem;
+}
+
+.footer-content h3 {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  color: rgb(161, 34, 55);
+}
+
+.copy-right {
+  margin: 6rem;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(92, 86, 86);
+}
+
+.copy-right p {
+  font-size: 1.1rem;
+}
+
+.copy-right a {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: rgb(92, 86, 86);
+  padding: 0.2rem;
+  font-size: 1.1rem;
+}
+
+.copy-right a:hover {
+  color: rgb(161, 34, 55);
+}
+
+/* ///.......Media Query......./// */
+
+@media (max-width: 500px) {
+  html {
+    font-size: 60%;
+  }
+  
+  .products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .products button {
+    margin-bottom: 3rem;
+  }
+  
+  .mens-trending {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .testimonial-content {
+    text-align: center;
+    margin: 0 8rem;
+    margin-top: 3rem;
+  }
+}

@@ -4,7 +4,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <title>ecommerce website</title>
+    <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
+    <title>SuperShopping</title>
   </head>
   <body>
     <nav class="navbar">
@@ -16,15 +17,15 @@
           <span class="line line3"></span>
         </div>
         <ul class="menu-items">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">Testimonial</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#review">Testimonial</a></li>
+          <li><a href="#footer">Contact</a></li>
         </ul>
-        <h1 class="logo">Navbar</h1>
+        <h1 class="logo">SuperShopping</h1>
       </div>
     </nav>
-    <div class="bgimg">
+    <div class="bgimg" id="home">
       <img src="./img/averie-woodard-4nulm-JUYFo-unsplash.jpg" alt="img" />
     </div>
     <div class="home-text container">
@@ -34,122 +35,129 @@
         Lorem ipsum dolor sit amet,<br />consectetur adipisicing elit.
         Provident?
       </p>
-      <button>Shop Now</button>
+      <button><a href="#shopnow">Shop Now</a></button>
     </div>
-    <div class="products container">
+    <div class="products container" id="shopnow">
       <div class="womens-fashion">
         <img src="./img/averie-woodard-4nulm-JUYFo-unsplash.jpg" alt="img" />
         <p class="wens-text">Women's Fashion</p>
-        <button class="wshop">Show Now</button>
+        <button class="wshop"><a href="#fsection">Show Now</a></button>
       </div>
       <div class="mens-fashion">
         <div class="mens-img">
           <img src="./img/mens fashion3.jpg" alt="img" />
           <p class="mens-text">Men's Fashion</p>
-          <button class="mshop">Show Now</button>
+          <button class="mshop"><a href="#msection">Shop Now</a></button>
         </div>
       </div>
       <div class="baby-fashion">
         <img src="./img/baby fashion.jpg" alt="img" />
         <p class="bmens-text">Baby's Fashion</p>
-        <button class="bshop">Show Now</button>
+        <button class="bshop"><a href="#bsection">Show Now</a></button>
       </div>
     </div>
-    <div class="trending container">
+    <div class="trending container" id="products">
       <div class="trending-content">
         <div class="trending-h1">
           <h1>Trending This Week</h1>
         </div>
-        <h1>Women</h1>
-        <div class="mens-trending">
-          <div class="product-1">
-            <img src="./img/women_trending_1(1).jpeg" alt="mt1" />
-            <p>
-              SWANGIYA Round Neck<br />Solid Women Pullover<br /><b
-                >&#8377;459</b
-              >
-            </p>
-          </div>
-          <div class="product-2">
-            <img src="./img/women_trending_1(3).jpeg" alt="mt2" />
-            <p>
-              Moca by Monte Carlo Round<br />Neck Solid Women Pullover<br /><b
-                >&#8377;320</b
-              >
-            </p>
-          </div>
-          <div class="product-3">
-            <img src="./img/women_trending_1(5).jpeg" alt="mt3" />
-            <p>
-              Full Sleeve Printed<br />Women Sweatshirt<br /><b>&#8377;820</b>
-            </p>
-          </div>
-          <div class="product-4">
-            <img src="./img/women_trending_1(6).jpeg" alt="mt4" />
-            <p>
-              Full Sleeve Solid Women<br />Sweatshirt<br /><b>&#8377;499</b>
-            </p>
-          </div>
-        </div>
-        <h1>Men</h1>
-        <div class="mens-trending">
-          <div class="product-1">
-            <img src="./img/mens_trending_1.jpeg" alt="mt1" />
-            <p>
-              Full Sleeve Color Block Men<br />Sweatshirt<br /><b>&#8377;310</b>
-            </p>
-          </div>
-          <div class="product-2">
-            <img src="./img/mens_trending_2.jpeg" alt="mt2" />
-            <p>
-              Full Sleeve Self Design Men<br />Sweatshirt<br /><b>&#8377;620</b>
-            </p>
-          </div>
-          <div class="product-3">
-            <img src="./img/mens_trending_3.jpeg" alt="mt3" />
-            <p>Full Sleeve Solid Men<br />Sweatshirt<br /><b>&#8377;820</b></p>
-          </div>
-          <div class="product-4">
-            <img src="./img/mens_trending_4.jpeg" alt="mt4" />
-            <p>Full Sleeve Solid Men<br />Sweatshirt<br /><b>&#8377;599</b></p>
+        <div id="fsection">
+          <h2>Women</h2>
+          <div class="mens-trending">
+            <div class="product-1">
+              <img src="./img/women_trending_1(1).jpeg" alt="mt1" />
+              <p>
+                SWANGIYA Round Neck<br />Solid Women Pullover<br /><b
+                  >&#8377;459</b
+                >
+              </p>
+            </div>
+            <div class="product-2">
+              <img src="./img/women_trending_1(3).jpeg" alt="mt2" />
+              <p>
+                Moca by Monte Carlo Round<br />Neck Solid Women Pullover<br /><b
+                  >&#8377;320</b
+                >
+              </p>
+            </div>
+            <div class="product-3">
+              <img src="./img/women_trending_1(5).jpeg" alt="mt3" />
+              <p>
+                Full Sleeve Printed<br />Women Sweatshirt<br /><b>&#8377;820</b>
+              </p>
+            </div>
+            <div class="product-4">
+              <img src="./img/women_trending_1(6).jpeg" alt="mt4" />
+              <p>
+                Full Sleeve Solid Women<br />Sweatshirt<br /><b>&#8377;499</b>
+              </p>
+            </div>
           </div>
         </div>
-        <h1>Baby Collection</h1>
-        <div class="mens-trending">
-          <div class="product-1">
-            <img src="./img/baby fashion 1.jpg" alt="mt1" />
-            <p>
-              Baby Boys & Baby Girls Party<br />Dungaree T-shirt<br /><b
-                >&#8377;499</b
-              >
-            </p>
-          </div>
-          <div class="product-2">
-            <img src="./img/baby fashion 2.jpg" alt="mt2" />
-            <p>
-              Baby Boys & Baby Girls<br />Casual Dress Dress<br /><b
-                >&#8377;399</b
-              >
-            </p>
-          </div>
-          <div class="product-3">
-            <img src="./img/baby fashion 3.jpg" alt="mt3" />
-            <p>
-              Casual Dress Dress<br />Casual Dress Dress<br /><b>&#8377;280</b>
-            </p>
-          </div>
-          <div class="product-4">
-            <img src="./img/baby fashion 4.jpg" alt="mt4" />
-            <p>
-              Baby Boys & Baby Girls<br />Casual Dress Dress<br /><b
-                >&#8377;320</b
-              >
-            </p>
+        <div id="msection">
+          <h2>Men</h2>
+          <div class="mens-trending">
+            <div class="product-1">
+              <img src="./img/mens_trending_1.jpeg" alt="mt1" />
+              <p>
+                Full Sleeve Color Block Men<br />Sweatshirt<br /><b>&#8377;310</b>
+              </p>
+            </div>
+            <div class="product-2">
+              <img src="./img/mens_trending_2.jpeg" alt="mt2" />
+              <p>
+                Full Sleeve Self Design Men<br />Sweatshirt<br /><b>&#8377;620</b>
+              </p>
+            </div>
+            <div class="product-3">
+              <img src="./img/mens_trending_3.jpeg" alt="mt3" />
+              <p>Full Sleeve Solid Men<br />Sweatshirt<br /><b>&#8377;820</b></p>
+            </div>
+            <div class="product-4">
+              <img src="./img/mens_trending_4.jpeg" alt="mt4" />
+              <p>Full Sleeve Solid Men<br />Sweatshirt<br /><b>&#8377;599</b></p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="testimonial">
-        <h1>Customer Testimonial</h1>
+        <div id="bsection">
+          <h2>Baby Collection</h2>
+          <div class="mens-trending">
+            <div class="product-1">
+              <img src="./img/baby fashion 1.jpg" alt="mt1" />
+              <p>
+                Baby Boys & Baby Girls Party<br />Dungaree T-shirt<br /><b
+                  >&#8377;499</b
+                >
+              </p>
+            </div>
+            <div class="product-2">
+              <img src="./img/baby fashion 2.jpg" alt="mt2" />
+              <p>
+                Baby Boys & Baby Girls<br />Casual Dress Dress<br /><b
+                  >&#8377;399</b
+                >
+              </p>
+            </div>
+            <div class="product-3">
+              <img src="./img/baby fashion 3.jpg" alt="mt3" />
+              <p>
+                Casual Dress Dress<br />Casual Dress Dress<br /><b>&#8377;280</b>
+              </p>
+            </div>
+            <div class="product-4">
+              <img src="./img/baby fashion 4.jpg" alt="mt4" />
+              <p>
+                Baby Boys & Baby Girls<br />Casual Dress Dress<br /><b
+                  >&#8377;320</b
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        </div>
+       
+      <div class="testimonial" id="review">
+        <h2>Customer Testimonial</h2>
         <div class="testimonial-content">
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -160,5 +168,69 @@
         </div>
       </div>
     </div>
+    <footer id="footer" class="container">
+      <div class="footer-content">
+        <div class="name">
+          <h3>SuperShopping</h3>
+          <p>Lorem ipsum dolor sit amet<br>consectetur adipisicing<br>elit. Ipsam, illo?</p>
+        </div>
+        <div class="links">
+          <h3>Quick Links</h3>
+          <a href="#">Home</a>
+          <a href="#">Products</a>
+          <a href="#">Testimonial</a>
+          <a href="#">Contact</a>
+        </div>
+        <div class="support">
+          <h3>New Products</h3>
+          <a href="#">Woman Cloth</a>
+          <a href="#">Fashion Accessories</a>
+          <a href="#">Man Accessories</a>
+        </div>
+        <div class="social">
+          <h3>Social</h3>
+          <a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
+          <a href="#"><i class="fab fa-facebook-square"></i> Facebook</a>
+          <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+          <a href="#"><i class="fab fa-twitter-square"></i> Twitter</a>
+        </div>
+      </div>
+      <div class="copy-right">
+        <p>Copyright &copy; 2021 All rights reserved</p>
+        <div class="slinks">
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-facebook-square"></i></a>
+          <a href="#"><i class="fab fa-instagram-square"></i></i></a>
+          <a href="#"><i class="fab fa-twitter-square"></i></a>
+        </div>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
   </body>
 </html>
