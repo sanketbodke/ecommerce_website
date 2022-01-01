@@ -29,7 +29,7 @@ body {
   box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
   position: fixed;
   width: 100%;
-  background: #f3ead8;
+  background: rgb(196, 175, 184);
   color: #000;
   z-index: 100;
 }
@@ -48,6 +48,7 @@ body {
 .logo {
   order: 1;
   font-size: 1.8rem;
+  color: rgb(228, 53, 120);
 }
 
 .menu-items li {
@@ -57,14 +58,15 @@ body {
 }
 
 .navbar a {
-  color: #000;
+  color: rgb(251,33,117);;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease-in-out;
 }
 
 .navbar a:hover {
-  color: rgb(161, 34, 55);
+  color: rgb(251,33,117);
+  border-bottom: 2px solid rgb(251,33,117);;
 }
 
 @media (max-width: 768px) {
@@ -113,7 +115,7 @@ body {
     height: 4px;
     width: 100%;
     border-radius: 10px;
-    background: #333;
+    background: rgb(251,33,117);
   }
 
   .navbar-container .hamburger-lines .line1 {
@@ -146,8 +148,8 @@ body {
   }
 
   .navbar .menu-items li {
-    margin-bottom: 1.8rem;
-    font-size: 1.1rem;
+    margin-bottom: 3rem;
+    font-size: 2rem;
     font-weight: 500;
   }
 
@@ -194,12 +196,12 @@ body {
 }
 
 .home-text .m-text {
-  color: rgb(161, 34, 55);
+  color: rgb(251,33,117);
   font-size: 3rem;
 }
 
 .home-text .s-text {
-  color: #000;
+  color: rgba(0, 0, 0, 0.726);
   font-size: 1.8rem;
 }
 
@@ -215,7 +217,7 @@ body {
   border-radius: 20px;
   outline: none;
   border: none;
-  background: rgb(161, 34, 55);
+  background: rgb(251,33,117);
   margin-top: 1.5rem;
   cursor: pointer;
   font-weight: bold;
@@ -228,7 +230,7 @@ body {
 }
 
 .home-text button:hover {
-  background: rgb(151, 12, 35, 1);
+  background: rgb(221, 9, 90);
   font-weight: bold;
   transition: 0.3s;
 }
@@ -262,10 +264,13 @@ body {
   font-size: 1rem;
   border-radius: 20px;
   border: none;
-  background: rgb(161, 34, 55);
   font-weight: bold;
   cursor: pointer;
   transition: 0.4s;
+  background: rgb(251,33,117);
+  background: linear-gradient(0deg, rgba(251,33,117,1) 0%, rgba(234,76,137,1) 100%);
+  color: #fff;
+  overflow: hidden;
 }
 
 .products a {
@@ -274,7 +279,7 @@ body {
 }
 
 .products button:hover {
-  background: rgb(151, 12, 35, 1);
+  background: rgb(228, 53, 120); 
 }
 
 .products p {
@@ -285,9 +290,9 @@ body {
 }
 
 .trending .trending-h1 h1 {
-  color: rgb(161, 34, 55);
+  color: rgb(228, 53, 120);
   margin-bottom: 0.5rem;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid rgb(196, 175, 184);;
   padding-bottom: 1rem;
 }
 
@@ -313,7 +318,7 @@ body {
 .testimonial {
   margin: 6rem 0;
   padding: 4rem;
-  background: #f3ead8;
+  background: rgb(196, 175, 184);
   box-shadow: 0 10px 20px #aaa, 0 6px 6px #aaa;
 }
 
@@ -328,8 +333,12 @@ body {
 }
 
 .testimonial-content h4 {
-  color: rgb(161, 34, 55);
+  color: rgb(251,33,117);
   margin: 0.7rem;
+}
+
+.testimonial h2{
+  color: rgb(228, 53, 120);
 }
 
 .footer-content {
@@ -347,7 +356,7 @@ body {
 }
 
 .footer-content a:hover {
-  color: rgb(161, 34, 55);
+  color: rgb(228, 53, 120);
 }
 
 .footer-content p {
@@ -358,7 +367,7 @@ body {
 .footer-content h3 {
   font-size: 1.6rem;
   margin-bottom: 2rem;
-  color: rgb(161, 34, 55);
+  color: rgb(228, 53, 120);
 }
 
 .copy-right {
@@ -381,7 +390,7 @@ body {
 }
 
 .copy-right a:hover {
-  color: rgb(161, 34, 55);
+  color: rgb(228, 53, 120);
 }
 
 /* ///.......Media Query......./// */
